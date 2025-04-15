@@ -1,0 +1,56 @@
+@import url('../config.css');
+@import url('./typography.css');
+@import url('./views/designtokens.css');
+
+pre {
+	tab-size: 4ch;
+}
+
+/* Ensures Stories have correct background */
+body.sb-show-main {
+	background-color: var(--lok-color-background-surface-default) !important;
+}
+
+/* Ensures all stories in docs mode use the correct theme background color */
+.docs-story {
+	background-color: var(--lok-color-background-surface-default);
+	color: var(--lok-color-text-default);
+}
+
+/* Set #root font color to allow components that don't set their own default color to inherit the color in canvas mode */
+#storybook-root {
+	color: var(--lok-color-text-default);
+}
+
+h1,
+h2,
+h3,
+strong,
+li,
+a,
+p {
+	font-family: var(--sb-theme-font-family-default) !important;
+}
+
+li,
+a,
+p {
+	font-size: var(--sb-theme-default-text-size) !important;
+}
+
+h1 {
+	margin-bottom: 24px !important;
+}
+
+h2 {
+	font-size: 28px !important;
+	line-height: 34px !important;
+	font-weight: 700 !important;
+	padding-bottom: 16px !important;
+	border-bottom: 1px solid #cbd5e0 !important;
+	margin: 32px 0 !important;
+}
+
+.sbdocs-wrapper {
+	padding: 32px !important;
+}

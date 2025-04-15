@@ -1,0 +1,45 @@
+export declare const MenuDescendantsProvider: import('../../../node_modules/react').Provider<import('./descendant').DescendantsManager<HTMLElement, Record<string, unknown>>>, useMenuDescendantsContext: () => import('./descendant').DescendantsManager<HTMLElement, Record<string, unknown>>, useMenuDescendants: () => import('./descendant').DescendantsManager<HTMLElement, Record<string, unknown>>, useMenuDescendant: (options?: import('./descendant').DescendantOptions<Record<string, unknown>> | undefined) => {
+    descendants: import('./descendant').DescendantsManager<HTMLElement, Record<string, unknown>>;
+    index: number;
+    enabledIndex: number;
+    register: (node: HTMLElement | null) => void;
+};
+export declare const MenuProvider: import('../../../node_modules/react').Provider<Omit<{
+    openAndFocusFirstItem: () => void;
+    openAndFocusLastItem: () => void;
+    onTransitionEnd: () => void;
+    descendants: import('./descendant').DescendantsManager<HTMLElement, Record<string, unknown>>;
+    buttonId: string;
+    menuId: string;
+    orientation: string;
+    opened: boolean;
+    onToggle: () => void;
+    onOpen: () => void;
+    onClose: () => void;
+    menuRef: HTMLDivElement | null;
+    setMenuRef: import('../../../node_modules/react').Dispatch<import('../../../node_modules/react').SetStateAction<HTMLDivElement | null>>;
+    buttonRef: HTMLButtonElement | null;
+    setButtonRef: import('../../../node_modules/react').Dispatch<import('../../../node_modules/react').SetStateAction<HTMLButtonElement | null>>;
+    focusedIndex: number;
+    setFocusedIndex: import('../../../node_modules/react').Dispatch<import('../../../node_modules/react').SetStateAction<number>>;
+    closeOnSelect: boolean;
+}, "descendants">>, useMenuContext: () => Omit<{
+    openAndFocusFirstItem: () => void;
+    openAndFocusLastItem: () => void;
+    onTransitionEnd: () => void;
+    descendants: import('./descendant').DescendantsManager<HTMLElement, Record<string, unknown>>;
+    buttonId: string;
+    menuId: string;
+    orientation: string;
+    opened: boolean;
+    onToggle: () => void;
+    onOpen: () => void;
+    onClose: () => void;
+    menuRef: HTMLDivElement | null;
+    setMenuRef: import('../../../node_modules/react').Dispatch<import('../../../node_modules/react').SetStateAction<HTMLDivElement | null>>;
+    buttonRef: HTMLButtonElement | null;
+    setButtonRef: import('../../../node_modules/react').Dispatch<import('../../../node_modules/react').SetStateAction<HTMLButtonElement | null>>;
+    focusedIndex: number;
+    setFocusedIndex: import('../../../node_modules/react').Dispatch<import('../../../node_modules/react').SetStateAction<number>>;
+    closeOnSelect: boolean;
+}, "descendants">;

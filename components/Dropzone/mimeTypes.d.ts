@@ -1,0 +1,27 @@
+export declare const MimeTypes: {
+    avif: string;
+    bmp: string;
+    gif: string;
+    ico: string;
+    jpeg: string;
+    png: string;
+    svg: string;
+    tiff: string;
+    webp: string;
+    pdf: string;
+    doc: string;
+    docx: string;
+    xls: string;
+    xlsx: string;
+    csv: string;
+    json: string;
+    jsonld: string;
+    yaml: string;
+    yml: string;
+};
+export declare const ImageMimeType: string[];
+export declare const PdfMimeType: string[];
+export declare const MsWordMimeType: string[];
+export declare const MsExcelMimeType: string[];
+export declare const CsvMimeType: string[];
+export declare const YAMLMimeType: string[];

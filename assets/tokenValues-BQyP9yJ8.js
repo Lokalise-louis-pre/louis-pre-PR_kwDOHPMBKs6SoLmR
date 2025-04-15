@@ -1,0 +1,1 @@
+const E=r=>{const n=[],s=(c,e)=>{Object.entries(c).forEach(([o,t])=>{if(t!==null&&typeof t=="object")s(t,[...e,o]);else{const i={key:[...e,o].join("."),tokenValue:t};n.push(i)}})};return s(r,[]),n};export{E as g};

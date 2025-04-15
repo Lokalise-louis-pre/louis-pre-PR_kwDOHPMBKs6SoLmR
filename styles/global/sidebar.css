@@ -1,0 +1,77 @@
+#storybook-explorer-tree .sidebar-subheading button[class^='css-'] {
+	padding: 0 !important;
+}
+
+#storybook-explorer-tree .sidebar-subheading button[class^='css-']:hover {
+	color: var(--sb-theme-color-black);
+}
+
+.sidebar-container,
+#storybook-explorer-tree,
+#storybook-explorer-menu,
+#storybook-explorer-tree > div {
+	background-color: var(--sb-theme-color-nav-background);
+}
+
+#storybook-explorer-tree .sidebar-subheading {
+	letter-spacing: 0;
+	font-size: 13px !important;
+	line-height: 20px !important;
+	font-weight: 600 !important;
+	background-color: var(--sb-theme-color-nav-background);
+	padding: 4px 0;
+	margin: 0;
+}
+
+#storybook-explorer-tree .sidebar-item {
+	font-family: var(--sb-theme-font-family-default) !important;
+	font-size: 13px !important;
+	line-height: 20px !important;
+	font-weight: 400 !important;
+	font-style: normal;
+	padding: 4px !important;
+	padding-left: 12px !important;
+}
+
+#storybook-explorer-tree .sidebar-item a[class^='css-'] {
+	padding-left: 16px !important;
+}
+
+#storybook-explorer-tree .sidebar-item a[id^='components-'],
+#storybook-explorer-tree .sidebar-item a[id^='foundations-icons-'] {
+	padding-left: 32px !important;
+}
+
+button > div > span {
+	display: none;
+}
+
+:focus {
+	color: #f97362 !important;
+}
+
+a:focus {
+	color: black !important;
+}
+
+#storybook-explorer-tree .sidebar-item:hover:not([data-selected='true']) {
+	background-color: var(--sb-theme-color-light-grey);
+	color: var(--sb-theme-color-black);
+}
+
+#storybook-explorer-tree .sidebar-item[data-selected='true'] {
+	background-color: var(--sb-theme-color-lokalise-brand);
+	color: var(--sb-theme-color-black);
+}
+
+#storybook-explorer-tree .sidebar-item svg,
+#storybook-explorer-menu button svg {
+	display: none;
+}
+
+.sidebar-header a[title^='Louis']:after {
+	content: attr(title);
+	color: var(--sb-theme-color-grey);
+	font-size: var(--sb-theme-small-text-size);
+	font-style: italic;
+}
